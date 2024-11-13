@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'title'; 
+    src: url('/src/components/fonts/title.TTF');
+  }
+
+  @font-face {
+    font-family: 'text'; 
+    src: url('/src/components/fonts/text.TTF');
+  }
+
+h1 {
+    text-align: center;
+    color:black;
+    font-size: 250%;
+    margin-top: 20px;
+    font-family:title, serif;
+}
+
+
+box {
+    list-style-type: none; 
+    font-family:text, serif;
+    padding: 0;
+    max-width: 95%;
+    margin: 2% auto; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+lista {
+    background-color: #f8f9fc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 28%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+lista:hover {
+    transform: scale(1.05);
+}
+
+lista mensaje {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: #000000;
+}
+
+
+.error {
+    color: #e74c3c;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+mensaje.loading {
+    text-align: center;
+}

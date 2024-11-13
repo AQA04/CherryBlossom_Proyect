@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'title'; 
+  src: url('/src/components/fonts/title.TTF'); 
+}
+
+@font-face {
+  font-family: 'text'; 
+  src: url('/src/components/fonts/text.TTF'); 
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #6b91ae;
+  border-radius: 8px;
+  margin: 5px;
+  width: 98%; 
+  box-shadow: 0 0 5px #989797;
+  background-color: #faf5f5;
+}
+
+.imagen {
+  width: 300px;
+  height: 350px;
+  border-radius: 4px;
+}
+
+.contenido {
+  flex: 5;
+  padding-right: 10%; 
+  align-content: center;
+  justify-content: center;
+}
+
+.titulo {
+  width: 100%;
+  font-size: 240%;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: title, sans-serif;
+}
+
+.texto {
+  width: 100%;
+  font-size: 140%;
+  color: #000000;
+  text-align:center;
+  font-family: text, sans-serif;
+}
+
+#boxBoton {
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+.botonProductosBusqueda {
+  font-family: text, serif;
+  font-size: large;
+  height: 50px;
+  width: 30%;
+
+  background-color: #c9adf1;
+  color: black;
+  border-radius: 5px;
+  
+  margin: 10%;
+
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  border: none;
+}
+
+.botonProductosBusqueda:hover {
+  background-color: rgb(81, 72, 138);
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'title'; 
+    src: url('/src/components/fonts/title.TTF');
+}
+  
+@font-face {
+    font-family: 'text'; 
+    src: url('/src/components/fonts/text.TTF');
+}
+
+#tituloProductos {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 250%;
+    font-family: title, serif;
+    color: rgb(38, 35, 54);
+    font-style: italic;
+    margin: 20px 0;
+}
+
+#expoProductos {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.cartasProductos {
+    height: auto;
+    width: 20%;
+    font-family: text, serif;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0 0 10px #989797;
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.descripcionProductos {
+    height: auto;
+    width: 100%;
+    font-size: 95%;
+    margin: 5px 0;
+}
+
+.precioProductos {
+    font-size: 90%;
+    color: rgb(100, 100, 100);
+}
+
+.botonProductos {
+    height: auto;
+    width: 30%; 
+    background-color: rgb(239, 239, 241);
+    font-size: 200%;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 2%;
+    border: none;
+    cursor: pointer;
+}
+
+.botonProductos:hover {
+    background-color: rgb(221, 221, 238);
+    color: black;
+    transition: background-color 0.3s;
+}
